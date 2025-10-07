@@ -1,2 +1,2 @@
 # web-perpustakaan
-web perpus v 0.1.0
+web perpus v 0.2.6
