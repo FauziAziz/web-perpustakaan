@@ -1,40 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>website responsive</title>
-    <link rel="stylesheet" href="style-uzi.css">
+    <title>Perpustakaan Digital</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-        <h1 align="center">selamat datang di website perpustakaan</h1>
-    </div>
-    <div class="main">
-        <div class="left">
-            <h3 align="center">Menu</h3>
+    <header>
+        <h1>Perpustakaan Digital</h1>
+        <nav>
             <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="home.html">Tentang</a></li>
+                <li><a href="daftar_buku.html">Katalog</a></li>
                 <li><a href="login.html">Login</a></li>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="daftar_buku.html">Daftar Buku</a></li>
-                <ul>
-                </ul>
-        </div>
-            <p><img src="https://img.freepik.com/foto-gratis/pemrograman-program-komputer-di-layar_53876-138060.jpg?semt=ais_hybrid&w=740&q=80" alt=""></p>
-            <div class="right">
-                <h3 align="center">buku terpopuler terkini</h3>
-                <p>
-                    <ul>
-                        <li><a href="buku_web.html">web design</a></li>
-                        <li><a href="buku_pemrograman.html">pemrograman</a></li>
-                        <li><a href="buku_database.html">database</a></li>
-                    </ul>
-                </p>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h2>Selamat Datang di Perpustakaan Digital</h2>
+            <p>Website perpustakaan online untuk akses mudah koleksi buku digital.</p>
+        </section>
+        <section class="books-popular">
+            <h3>Buku Populer</h3>
+            <div class="book-list">
+                <div class="book-card">
+                    <a href="buku_web.html">
+                        <img src="cover_web.jpg" alt="Web Design">
+                        <h4>Desain Web Responsif</h4>
+                    </a>
+                </div>
+                <div class="book-card">
+                    <a href="buku_pemrograman.html">
+                        <img src="cover_python.jpg" alt="Pemrograman Python">
+                        <h4>Belajar Pemrograman Python</h4>
+                    </a>
+                </div>
+                <div class="book-card">
+                    <a href="buku_database.html">
+                        <img src="cover_db.jpg" alt="Database">
+                        <h4>Database untuk Pemula</h4>
+                    </a>
+                </div>
             </div>
-        </div>
-        <div class="footer">
-            <p align="center">copyright &copy; 2024 by website perpustakaan</p>
-    </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Perpustakaan Digital</p>
+    </footer>
 </body>
 </html>
