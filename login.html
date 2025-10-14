@@ -1,31 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>website responsive</title>
-    <link rel="stylesheet" href="style-uzi.css">
+    <title>Login Perpustakaan</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h2 align="center">login</h2>
-    <form action="proses_login.php" method="post">
-        <table align="center">
-            <tr>
-                <td>username</td>
-                <td>:</td>
-                <td><input type="text" name="username" required></td>
-            </tr>
-            <tr>
-                <td>password</td>
-                <td>:</td>
-                <td><input type="password" name="password" required></td>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td><input type="submit" value="login"></td>
-            </tr>
-        </table>
-    </form>
+    <header>
+        <h1>Login</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="daftar_buku.html">Katalog</a></li>
+                <li><a href="home.html">Tentang</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="login">
+            <form action="proses_login.php" method="post">
+                <label>Username</label>
+                <input type="text" name="username" required>
+                <label>Password</label>
+                <input type="password" name="password" required>
+                <button type="submit">Login</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Perpustakaan Digital</p>
+    </footer>
 </body>
 </html>
